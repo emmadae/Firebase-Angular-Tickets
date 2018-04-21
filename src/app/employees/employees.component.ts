@@ -10,7 +10,7 @@ import { Router, RouterLinkActive } from '@angular/router';
 })
 export class EmployeesComponent implements OnInit {
 
-  constructor(private ticketService : EmployeeService) { }
+  constructor(public ticketService : EmployeeService) { }
 
   ngOnInit() {
   }

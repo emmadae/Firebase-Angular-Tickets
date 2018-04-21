@@ -11,7 +11,7 @@ import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 })
 export class EmployeeListComponent implements OnInit {
   ticketList: Tickets[];
-  constructor(private ticketService: EmployeeService, private tostr: ToastrService) { }
+  constructor(public ticketService: EmployeeService, public tostr: ToastrService) { }
 
   	ngOnInit() {
 		var x = this.ticketService.getData();
