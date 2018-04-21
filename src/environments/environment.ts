@@ -4,7 +4,7 @@
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
 export const environment = {
-  production: true,
+  // production: true,
   firebaseConfig : {
     apiKey: "AIzaSyABKjjh0U0xJhKpVxbrdN4PeH9v48vGow8",
     authDomain: "ticket-counter.firebaseapp.com",
