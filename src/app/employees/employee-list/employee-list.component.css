@@ -1,0 +1,55 @@
+/* Ticket Div */
+.ticket-list-div{
+    width: 92%;
+    margin: 4%;
+    padding: 3%;
+}
+
+/* Ticket Div Title */
+.current-issue-title {
+    background-color: #444;
+    padding: 2%;
+    color:white;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    margin-bottom: -1%;
+}
+
+/* Each List Group Ticket Item */
+.list-group-item{
+    border:none;
+    border-radius: 0;
+    background: #F2F3F4;
+    margin-bottom:2%;
+}
+
+/* Title For Each Ticket Items */
+.list-group-item h5{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Buttons On Each Ticket Items */
+.seperate {
+    float:right;
+}
+
+.btn-dark{
+    background-color: #15416E;
+}
+
+.btn-dark:hover{
+    background-color: #265E97;
+    border: 1px solid #265E97;
+    transition: ease-in-out .25s;
+}
+
+.delete-btn:hover{
+    background-color: #CD6155;
+    color:white;
+}
+
+i {
+    font-size: 13px;
+    margin-left:3px;
+}

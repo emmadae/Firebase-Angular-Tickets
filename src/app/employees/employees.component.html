@@ -1,0 +1,21 @@
+<div class="main-page">
+	<!-- Page Header -->
+	<div class="jumbotron">
+		<h4> <span> TIS </span> Ticket Issue System </h4>
+	</div>
+	<i class="fas fa-caret-down"></i>
+	<!-- Nav Bar -->
+	<div class="nav-bar">
+		<ul class="nav nav-pills">
+			<li class="nav-item">
+				<a class="nav-link" [routerLink]="['']" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }"> Tickets </a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" [routerLink]="['form']" routerLinkActive="active"> Create </a>
+			</li>
+		</ul>
+	</div>
+	<!-- Router Outlet -->
+	<router-outlet></router-outlet>
+</div>
+

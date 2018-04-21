@@ -1,0 +1,18 @@
+<div class="ticket-list-div">
+	<h4 class="current-issue-title"> Current Ticket Issues </h4><br/>
+	<ul class="list-group" *ngFor="let ticket of ticketList">
+		<li class="list-group-item"> 
+			<h5> {{ ticket.title }}  </h5>
+			<p> {{ ticket.description }} </p>
+			<p> {{ ticket.count }} </p>
+			<div class="button-div">
+				<button type="button" (click)="onCount(ticket.count, ticket.$key)" class="btn btn-dark"> Add To Count <i class="fas fa-plus"></i> </button>
+				<span class="seperate">
+					<!-- Edit Compatability For Single Page App Only - Router Does NOT Pass In Edits Currently --> 
+						<!-- <button type="button" (click)="onEdit(ticket)" class="btn edit-btn btn-light"> Edit <i class="far fa-edit"></i> </button> -->
+					<button type="button" (click)="onDelete(ticket.$key)" class="btn delete-btn btn-light"> Delete <i class="fas fa-trash-alt"></i> </button>
+				</span>
+			</div>
+		</li>
+	</ul>
+</div>

@@ -1,0 +1,17 @@
+.create-ticket-div{
+    width:92%;
+    margin: 4%;
+    padding:2%;
+}
+.form-title {
+    background-color: #444;
+    padding: 2%;
+    color:white;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+form{
+    background-color: #F2F3F4;
+    padding: 2% 4%;
+}
+
